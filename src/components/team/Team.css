@@ -1,0 +1,40 @@
+.teamContainer{
+    margin: 6% 0;
+}
+.teamHeader{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.teamHeader h1{
+    font-size: 3.5rem;
+    letter-spacing: 1.5px;
+    margin: 2% 0;
+}
+.teamText{
+    display: flex;
+    justify-content: space-between;
+}
+.teamPara{
+    text-align: center;
+    margin: 4% 0;
+}
+.teamPara img{
+    width: 100%;
+    border-radius: 5px;
+}
+.teamParaText h3{
+    color: #339bbe;
+    font-size: 1.7rem;
+    margin: 2% 0;
+}
+.teamParaText h4{
+   color: #fff;
+   font-size: 1.3rem;
+   font-weight: 400;
+}
+/* ------------------------MEDIA------------------------------- */
+@media screen and (max-width: 620px){
+    .teamText{
+        justify-content: center;
+    }
+}

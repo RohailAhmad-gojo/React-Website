@@ -1,0 +1,59 @@
+.fraturedBody{
+    margin: 5% 0;
+}
+.featuredHeader h1{
+    text-align: center;
+    color: #339bbe;
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 700;
+}
+.featuredImage {
+    margin-bottom: 8%;
+}
+.featuredImage ul{
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-between;
+}
+.featuredImage ul li{
+    list-style: none;
+    margin: 0 3%;
+}
+.featuredButton h1{
+    text-align: center;
+    color: #339bbe;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.featuredButton ul{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+}
+.featuredButton ul li{
+    list-style: none;
+    margin:0 3%;
+}
+/* ----------------Media------------------------------- */
+@media screen and (max-width: 800px) {
+    .featuredImage ul{
+        text-align: center;
+        display: block;
+    } 
+    .featuredImage ul li{
+        margin:5% 0 ;
+    }
+}
+@media screen and (max-width:600px){
+    .featuredButton ul{
+        text-align: center;
+        display: block;
+    }
+    .featuredButton ul li{
+        margin:5% 0 ;
+    }
+    .featuredImage img{
+        width: 30%;
+    }
+}

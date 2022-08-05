@@ -1,0 +1,35 @@
+.aboutText h1{
+    color: #339bbe;
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+.aboutText p{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+/* ---------------IMAGES---------------------------- */
+.aboutImage{
+    /* display: flex; */
+    text-align: center;
+}
+.aboutImage img{
+    width: 100%;
+    max-width: 170px;
+    margin: 10px;
+}
+/* ---------------------------------Media------------------------------------------------ */
+@media screen and (max-width: 460px) {
+  .aboutImages{
+      display: none;
+  }
+}
+@media screen and (max-width: 1275px) {
+    .aboutImage{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+  }

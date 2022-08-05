@@ -1,0 +1,31 @@
+.banner-main {
+    -webkit-animation-duration: 20000s;
+    animation-duration: 20000s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: MOVE-BG;
+    animation-name: MOVE-BG;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    background: url("./img/wallpaper.jpg") 0 0/cover repeat #fff;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.bg-banner {
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+    position: absolute;
+    background: #050d1a;
+    box-shadow: 0 -10px 40px 40px #050d1a;
+}
+@keyframes MOVE-BG {
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x: -1000000px;
+    }
+}

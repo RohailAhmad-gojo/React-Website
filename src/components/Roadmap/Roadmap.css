@@ -1,0 +1,76 @@
+h1{
+    color: #339bbe;
+    font-size: 2.5rem;
+}
+.roadmapHeader{
+    margin-bottom:5%; 
+}
+.roadmapBorder{
+    position: absolute;
+    left: 28%;
+    border-right: 2px dashed #339bbe;
+    height: 1250px;
+}
+.roadmapText{
+    background-color: white;
+    padding: 2%;
+    border-radius: 5px;
+}
+.roadmapTextPara{
+    display: flex;
+    margin: 7px 0;
+}
+.roadmapTextPara p{
+    font-size: 1.2rem;
+    width: 95%;
+    font-weight: 300;
+} 
+.roadmapPara{
+    margin: 2% 0;
+}
+.roadMapIcon{
+    color: #000;
+}
+.roadmapBottom{
+    margin-top: 2%;
+    margin-left: 25%;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+/* -------------------------MEDIA-------------------------------------------- */
+@media screen and (max-width: 1200px) {
+    .roadmapBorder{
+    left: 5%;
+    height: 1350px;
+}
+    .roadmapBottom{
+      margin-top: 2%;
+      margin-left: 0%;
+}
+}
+@media screen and (max-width: 1000px) {
+    .roadmapBorder{
+        height: 1530px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .roadmapBorder{
+        height: 1600px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .roadmapBorder{
+        height: 1780px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .roadmapBorder{
+        height: 1970px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .roadmapBorder{
+        height: 2190px;
+    }
+}

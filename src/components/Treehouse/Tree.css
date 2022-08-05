@@ -1,0 +1,33 @@
+.treeHouseContainer{
+    margin-top: 6%;
+    margin-bottom: 3%;
+}
+.treeHouseHeader{
+    text-align: center;
+    width: 80%;
+}
+.treeHouseHeader h1{
+    font-size: 3.5rem;
+    letter-spacing: 1.5px;
+    margin: 2% 0;
+    
+}
+.treeHouseHeader p{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.treeHouseBack{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+/* --------------------------Media------------------------------- */
+@media screen and (max-width:600px){
+    .treeHouseHeader h1{
+        font-size: 3rem;
+    }
+    .treeHouseHeader p{ 
+        font-size: 1rem;
+    }
+ }

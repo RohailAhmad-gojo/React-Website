@@ -1,0 +1,73 @@
+.homePage{
+    position: relative;
+    padding-top: 5%;
+    background-image: url("./img/back.jpg");
+    width: 100%;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.674);
+    height: 100%;
+    padding: 5% 0;
+}
+.homePageTexts{
+    margin: 8% 0;
+}
+.homePageTexts h1{
+  color: #339bbe;
+  font-size: 3.5rem;
+  font-weight: 900;
+  letter-spacing: 0.2rem;
+  margin: 0 7px;
+}
+.homePageTexts p{
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 10px;
+}
+.homePageTexts button{
+    margin: 15px;
+    font-weight: 500;
+}
+.buttonIcon{
+  margin: 0 7px;
+}
+/* -------------------MEDIA----------------------------------------- */
+@media screen and (max-width: 800px) {
+    .homePageTexts h1{
+        font-size: 3rem;
+        font-weight: 800;
+      }
+      .homePageTexts p{
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding: 6px;
+      }
+      .homePageTexts button{
+          margin: 10px;
+          font-weight: 400;
+      }
+      .homePageTexts{
+        margin: 15% 0;
+    }
+}
+@media screen and (max-width: 400px) {
+    .homePageTexts h1{
+        font-size: 2rem;
+        font-weight: 600;
+      }
+      .homePageTexts p{
+        font-size: 0.8rem;
+        font-weight: 400;
+        padding: 5px;
+      }
+      .homePageTexts button{
+          margin: 10px;
+          font-weight: 400;
+      }
+      .homePageTexts{
+        margin: 25% 0;
+    }
+}

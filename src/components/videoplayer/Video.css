@@ -1,0 +1,10 @@
+.secTwo{
+    margin: 8% 0;
+}
+.secTwoPara p{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 10px;
+    text-align: center;
+}
